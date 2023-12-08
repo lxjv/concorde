@@ -1,0 +1,80 @@
+@import url(https://fonts.bunny.net/css?family=albert-sans:400,500i|ibm-plex-mono:400,700i);
+
+html {
+	background-color: #fff8e7;
+	color: #0D0C0B;
+}
+
+body {
+	background-color: #fff8e7;
+
+	padding: 1em;
+	border-radius: 1em;
+	margin: 2em auto;
+
+	max-width: 90%;
+
+	font-family: Albert Sans, sans-serif;
+	font-size: 105%;
+	font-display: swap;
+	border: 0.1em solid #0D0C0B;
+}
+
+small {
+	font-size: 72%;
+	margin-left: 0.3em;
+}
+
+#head {
+	margin-bottom: 1em;
+}
+
+h1 {
+	margin: 0 0 0 0;
+}
+
+.webring>a {
+	padding: 0 6px;
+}
+
+a[href] {
+	color: #0D0C0B;
+	text-decoration: underline dotted #0D0C0B;
+
+}
+
+code {
+	font-family: IBM Plex Mono, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #100536;
+		color: #fff8e7;
+	}
+
+	body {
+		background-color: #100536;
+		border:#FFF8e7;
+	}
+
+	a[href] {
+		color: #fff8e7;
+		text-decoration: underline dotted #fff8e79c;
+
+	}
+
+	.blue {
+		background: #8797e059;
+	}
+
+	.orange {
+		background: #dc774f51;
+		color: #fff8e7;
+	}
+
+	.orange a[href] {
+		color: #fff8e7;
+	}
+
+}
