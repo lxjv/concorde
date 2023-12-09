@@ -1,5 +1,7 @@
 ---
-layout: base.njk
+layout: base
 ---
+
 <h2>{{title | safe}}</h2>
+<p>Published on {{date | postDate | default: 1970-01-01}}</p>
 <article>{{content | safe}}</article>
