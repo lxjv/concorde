@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/cdn/style");
 	eleventyConfig.addWatchTarget("./src/cdn/style");
 
-	eleventyConfig.addPassthroughCopy("./src/cdn/favicon.svg");
+	eleventyConfig.addPassthroughCopy("./src/cdn/image");
 	// random filter
 	eleventyConfig.addFilter("randomItem", (arr) => {
 		arr.sort(() => {

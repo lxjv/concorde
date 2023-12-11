@@ -1,19 +1,8 @@
----json
-{
-  "permalink": "atom.xml",
-  "eleventyExcludeFromCollections": true,
-  "metadata": {
-    "title": "Concorde",
-    "subtitle": "A blog by Laker Turner.",
-    "language": "en",
-    "url": "https://concorde.blog",
-    "author": {
-      "name": "Laker Turner",
-      "email": "pigeon@concorde.blog"
-    }
-  }
-}
----
+--
+permalink: atom.xml
+eleventyExcludeFromCollections: true
+--
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
   <title>{{ metadata.title }}</title>
