@@ -2,3 +2,4 @@ node_modules/
 public/
 save.txt
 src/posts/.obsidian
+.DS_Store
