@@ -5,10 +5,11 @@ module.exports = function (eleventyConfig) {
 	// plugins
 	eleventyConfig.addPlugin(pluginRss);
 
-	// so styling works!
+	// styling
 	eleventyConfig.addPassthroughCopy("./src/cdn/style");
 	eleventyConfig.addWatchTarget("./src/cdn/style");
-	
+
+	eleventyConfig.addPassthroughCopy("./src/cdn/favicon.svg");
 	// random filter
 	eleventyConfig.addFilter("randomItem", (arr) => {
 		arr.sort(() => {

@@ -25,8 +25,12 @@ small {
 	margin-left: 0.3em;
 }
 
-#head {
-	margin-bottom: 1em;
+header {
+	padding-bottom: 0.5em;
+}
+
+footer {
+	padding-top: 0.5em;
 }
 
 h1 {
@@ -47,6 +51,11 @@ code {
 	font-family: IBM Plex Mono, monospace;
 }
 
+.statuslol_container {
+	width: fit-content;
+	border: 1em;
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		background: #100536;
@@ -55,7 +64,6 @@ code {
 
 	body {
 		background-color: #100536;
-		border:#FFF8e7;
 	}
 
 	a[href] {

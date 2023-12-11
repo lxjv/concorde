@@ -12,20 +12,25 @@
 	<title>{{title}}</title>
 </head>
 
-<div>
+<header>
 	<h1>
 		<a style="text-decoration: none;" href="/">Concorde</a>
 		<small style="size: 78%;">
 			<a href="/about">about</a>
 			<a href="/contact">contact</a>
 			<a href="/now">/now</a>
-			<a style="margin-left: 1em;" href="/feed.xml"><i class="fa-solid fa-rss"></i></a>
+			<a style="margin-left: 0.3em;" href="/feeds"><i class="fa-solid fa-rss"></i></a>
 			</small>
 		</h1>
-</div>
+</header>
 
 <body>
 	{{content | safe}}
 </body>
+
+<footer style="margin-top: 0.5em;">
+	Be kind. <i class="fa-solid fa-heart"></i>
+	<a rel="me" href="https://social.lol/@la">@la@social.lol</a> - <a rel="me" href="mailto:pigeon@concorde.blog">pigeon@concorde.blog</a><br>
+</footer>
 
 </html>

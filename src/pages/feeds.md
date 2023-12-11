@@ -6,4 +6,4 @@ title: Feeds
 - [Atom feed](/atom.xml)
 - [JSON feed](/feed.json)
 
-F
+Remind me to make this page more interesting please -- LA
