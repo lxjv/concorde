@@ -20,26 +20,7 @@
 	<title>{{ title | safe }}</title>
 </head>
 
-<header>
-	<h1>
-		<a style="text-decoration: none;" href="/">Laker Turner</a>
-		<small style="size: 78%;">
-			<a href="/blog">blog</a>
-			<a href="/about">about</a>
-			<a href="/contact">contact</a>
-			<a href="/now">/now</a>
-			<a style="margin-left: 0.3em;" href="/feeds"><i class="fa-solid fa-rss"></i></a>
-		</small>
-	</h1>
-</header>
-
 <body>
 	{{ content | safe }}
 </body>
-
-<footer style="margin-top: 0.5em;">
-	<a rel="me" href="https://social.lol/@la">@la@social.lol on the fediverse</a> - <a rel="me" href="mailto:la@laker.gay">la@laker.gay</a>
-	<!--{% for quote in footer | randomItem %}<p>{{ quote }}</p>{% endfor %}-->
-</footer>
-
 </html>
