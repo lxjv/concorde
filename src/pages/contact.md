@@ -1,8 +1,16 @@
 ---
 title: Contact / Social Media
 ---
-### Contact
-- my email is [la@laker.gay](mailto:la@laker.gay) and you can grab my encryption keys [here](/keys).
+
+### Guidelines
+- Most questions are allowed. They just have be in "good faith."
+(Good, honest intentions, even if producing unfortunate results.)
+- [Dont be an asshole.](https://asshole.fyi)
+- [Don't ask to ask.](https://dontasktoask.com)
+---
+### Email
+- My personal email is [la@laker.gay](mailto:la@laker.gay) and you can grab my encryption keys [here](/keys).
+- For any work purposes, please email [laker@laker.tech](mailto:laker@laker.tech)
 
 ### Social Media
 > I'm trying to use social media less right now, so i might not see your replies / messages. <br>
@@ -28,3 +36,6 @@ title: Contact / Social Media
 - la on the omg.lol server
 - laker on liberachat
 
+
+
+[def]: mailto:laker@laker.tech
