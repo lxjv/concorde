@@ -1,6 +1,6 @@
 ---
-title: Concorde
-layout: base.njk
+title: Laker's Blog <small>also known as Concorde</small>
+layout: page.njk
 permalink: /blog
 ---
 
