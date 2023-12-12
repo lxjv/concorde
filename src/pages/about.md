@@ -8,7 +8,7 @@ I've been creative my entire life, but started writing about 3 years ago.
 
 I came out as non-binary in 2018, and [later as a trans woman in 2022](/out)
 
-> -- [please remind me to finish this](/contact) -- LA
+{% include "remind.njk" %}
 
 ## Colophon
 
