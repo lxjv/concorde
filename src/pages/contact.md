@@ -26,8 +26,10 @@ title: Contact / Social Media
 
 ### Messaging
 
-- Discord: @lxjv or join my [very dead server](https://laker.tech/discord) {discord}
+- Discord: @lxjv or join my [very dead server](https://laker.tech/discord), if you want.
+
 - XMPP: @la@omg.lol - The server is currently, ahem *quite broken* but Adam is working on it as we speak <3
+
 - Telegram [@laker78](https://t.me/laker78)
 - iMessage is the same as my email
 - ask me for my phone number or signal

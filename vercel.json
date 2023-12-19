@@ -9,5 +9,5 @@
 		{ "source": "/git", "destination": "https://github.com/lxjv"},
 		{ "source": "/discord", "destination": "https://discord.gg/mcpsEvwsd4"}
 	],
-	"trailingSlash": "false"
+	"trailingSlash": false
 }
