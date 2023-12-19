@@ -17,7 +17,23 @@ body {
 	font-family: Albert Sans, sans-serif;
 	font-size: 105%;
 	font-display: swap;
-	border: 0.1em solid #0D0C0B;
+}
+
+#content {
+	margin-top: 0.5em;
+	padding-left: 1em;
+	border-radius: 1em;
+}
+
+blockquote {
+	margin-left: 13px;
+	padding-left: 8px;
+	border-left: 4px solid #6867aa;
+	border-spacing: 5px;
+}
+
+blockquote::hover {
+	border-style: dotted;
 }
 
 small {
@@ -83,6 +99,10 @@ code {
 
 	.orange a[href] {
 		color: #fff8e7;
+	}
+
+	.literal-book-item__title {
+		color: #fff8e7 !important;
 	}
 
 }

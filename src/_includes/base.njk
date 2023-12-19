@@ -15,10 +15,13 @@
 	<!-- styling -->
 	<link rel="stylesheet" href="/cdn/style/style.css" />
 	<link rel="icon" href="/cdn/favicon.svg">
-	<script src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
+	<link rel="preload" href="https://fonts.bunny.net/css">
+	<script defer src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
 	
 	<title>{{ title | safe }}</title>
 </head>
+
+<body>
 
 <header>
 	<h1>
@@ -32,13 +35,13 @@
 	</h1>
 </header>
 
-<body>
+<div id="content" style="border: 1px dotted;">
 	{{ content | safe }}
-</body>
+</div>
 
 <footer style="margin-top: 0.5em;">
-	<a rel="me" href="https://social.lol/@la">@la@social.lol on the fediverse</a> - <a rel="me" href="mailto:la@laker.gay">la@laker.gay</a>
-	<!--{% for quote in footer | randomItem %}<p>{{ quote }}</p>{% endfor %}-->
+	<a href="#">back to the top</a> - {% for quote in footer | randomItem %}{{ quote }}{% endfor %}
 </footer>
 
+</body>
 </html>

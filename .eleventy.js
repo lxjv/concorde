@@ -31,4 +31,8 @@ module.exports = function (eleventyConfig) {
 			output: "public",
 		},
 	};
+
+	eleventyConfig.setServerOptions({
+		port: 3000
+	});
 };

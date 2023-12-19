@@ -22,11 +22,12 @@ title: Contact / Social Media
 - Instagram / Threads: I need it to talk to family - [@lakerturner](https://instagram.com/lakerturner)
 
 - Twitter: I have no account on Twitter because of the current management, and will only return when he is overthrown.
-- Reddit: I do *have* an account but i only use it for bands i like that dont have a community outside of Reddit.
+- Reddit: I do *have* an account but I only use it for bands I like that dont have a community outside of Reddit.
 
 ### Messaging
 
 - Discord: @lxjv or join my [very dead server](https://laker.tech/discord) {discord}
+- XMPP: @la@omg.lol - The server is currently, ahem *quite broken* but Adam is working on it as we speak <3
 - Telegram [@laker78](https://t.me/laker78)
 - iMessage is the same as my email
 - ask me for my phone number or signal
@@ -35,7 +36,3 @@ title: Contact / Social Media
 *i barely go on IRC outside of omg.lol, I will probably not see your message*
 - la on the omg.lol server
 - laker on liberachat
-
-
-
-[def]: mailto:laker@laker.tech
