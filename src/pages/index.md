@@ -1,5 +1,5 @@
 ---
-title: Laker Turner
+title: Home
 permalink: /
 layout: base
 ---
@@ -10,5 +10,5 @@ Hi! I'm <a style="text-decoration: none;" href="https://laker.tech" class="h-car
 
 <img class="u-photo" style="vertical-align:middle" src="/cdn/image/hat.jpg" height=80 width=80> <- me! I'm not a fan of showing my face, sorry :D
 
-Of course, Here's a list of posts from my blog :)
+Here's a list of posts from my blog :)
 {% include "postlist.njk" %}

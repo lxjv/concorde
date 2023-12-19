@@ -72,6 +72,7 @@ code {
 	border: 1em;
 }
 
+
 @media (prefers-color-scheme: dark) {
 	html {
 		background: #100536;

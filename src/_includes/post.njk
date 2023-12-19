@@ -3,5 +3,8 @@ layout: base
 ---
 
 <h2>{{title | safe}}</h2>
-{% include "date.njk" %}
+{% include "date.njk" %} | Written by <a style="text-decoration: none;" href="https://laker.tech" class="p-author">Laker Turner</a>
+
+{% for tag in page.tags %}<p>{{tag}}</p>{% endfor %}
+
 <article>{{content | safe}}</article>

@@ -15,7 +15,7 @@
 	<!-- styling -->
 	<link rel="stylesheet" href="/cdn/style/style.css" />
 	<link rel="icon" href="/cdn/favicon.svg">
-	<link rel="preload" href="https://fonts.bunny.net/css">
+	<link rel="preload" as "font" href="https://fonts.bunny.net/css">
 	<script defer src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
 	
 	<title>{{ title | safe }} | Laker Turner</title>
@@ -30,17 +30,22 @@
 			<a href="/about">about</a>
 			<a href="/contact">contact</a>
 			<a href="/now">/now</a>
-			<a style="margin-left: 0.3em;" href="/feeds"><i class="fa-solid fa-rss"></i></a>
 		</small>
 	</h1>
 </header>
 
-<div id="content" style="border: 1px dotted;">
+<div id="content" style="border: 2px solid;">
 	{{ content | safe }}
 </div>
 
 <footer style="margin-top: 0.5em;">
-	<a href="#">back to the top</a> - {% for quote in footer | randomItem %}{{ quote }}{% endfor %}
+	<a href="#">back to the top</a> | 
+	<i class="fa-solid fa-rss" style="color: orange;"></i>
+	<a href="/feed.xml">RSS feed</a>
+	<a href="/atom.xml">Atom feed</a>
+	<a href="/feed.json">JSON feed</a>
+	
+	{% for quote in footer | randomItem %}<blockquote>{{ quote }}</blockquote>{% endfor %}
 </footer>
 
 </body>

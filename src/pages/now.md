@@ -1,5 +1,5 @@
 ---
-title: "/Now"
+title: "/now"
 date: 2023-12-11
 ---
 
@@ -30,8 +30,8 @@ Support Bandcamp United!
 According to [literal.club/@laker](https://literal.club/laker), I've been reading:
 
 <div id="literal-widget" handle="laker" status="IS_READING" layout="list"></div>
-<script src="https://literal.club/js/widget.js"></script>
+<script defer src="https://literal.club/js/widget.js"></script>
 
 ## 🎮 📺 🎥 Other media
 
-Favourite movie is still Everything Everywhere All At Once
+Favourite movie is still Everything Everywhere All At Once. No surprises there.
