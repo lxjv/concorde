@@ -13,11 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "axios": "^1.6.2",
     "luxon": "^3.4.4"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3"
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   }
 }
