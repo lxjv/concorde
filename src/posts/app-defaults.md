@@ -5,18 +5,18 @@ date: 2023-11-28
 
 I first put this up on [txt.laker.tech](https://txt.laker.tech/defaults) while this site was in the works. So now it's here!
 ```
-📨 Mail Client: aerc / Thunderbird / Fastmail Web and iOS app
+📨 Mail Client: Fastmail Web and iOS app
 📮 Mail Server: Fastmail
 📝 Notes: Obsidian
 ✅ To-Do: Reminders.app
 📷 iPhone Photo Shooting: Camera.app
 🟦 Photo Management: Photos.app
 📆 Calendar: Calendar.app
-📁 Cloud File Storage: iCloud / Nextcloud (selfhosted)
-📖 RSS: Reeder / FreshRSS (selfhosted)
+📁 Cloud File Storage: iCloud
+📖 RSS: Reeder
 🙍🏻‍♂️ Contacts: Contacts.app
 🌐 Browser: Arc on Mac, Safari on iOS, Firefox everywhere else
-💬 Chat: Discord, iMessage, Telegram
+💬 Chat: Discord, iMessage
 🔖 Bookmarks: Arc Mobile Companion, Obsidian
 📑 Read It Later: Omnivore
 📜 Word Processing: Obsidian
@@ -26,7 +26,7 @@ I first put this up on [txt.laker.tech](https://txt.laker.tech/defaults) while t
 🍴 Meal Planning: Pen and paper
 💰 Budgeting and Personal Finance: Pen and paper
 📰 News: Apple News
-🎵 Music: Spotify, Apple Music, musikcube with my mp3
+🎵 Music: Apple Music, Spotify, musikcube with my mp3
 🎤 Podcasts: Overcast
 🔐 Password Management: 1Password
 ```

@@ -1,6 +1,6 @@
 ---json
 {
-  "permalink": "/atom.xml",
+  "permalink": "/feed.xml",
   "eleventyExcludeFromCollections": true,
   "title": "Laker Turner",
   "subtitle": "Laker Turner's website",
@@ -17,6 +17,7 @@
 }
 ---
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/cdn/style/feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
