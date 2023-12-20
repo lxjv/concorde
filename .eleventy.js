@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("./src/cdn/style");
 
 	eleventyConfig.addPassthroughCopy("./src/cdn/image");
-	eleventyConfig.addPassthroughCopy("./.well-known/");
+	eleventyConfig.addPassthroughCopy("./src/meta/.well-known/");
 	
 	// random filter
 	eleventyConfig.addFilter("randomItem", (arr) => {

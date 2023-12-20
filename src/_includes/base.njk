@@ -15,10 +15,12 @@
 	<!-- styling -->
 	<link rel="stylesheet" href="/cdn/style/style.css" />
 	<link rel="icon" href="/cdn/favicon.svg">
-	<link rel="preload" as "font" href="https://fonts.bunny.net/css">
 	<script defer src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
-	
+
+	<!-- opengraph -->
 	<title>{{ title | safe }} | Laker Turner</title>
+	<meta property="description" content="Welcome to Laker Turner's website." />
+	<meta property="og:image" content="/cdn/image/hat.jpg">
 </head>
 
 <body>
@@ -39,11 +41,15 @@
 </div>
 
 <footer style="margin-top: 0.5em;">
-	<a href="#">back to the top</a> | 
+	<a href="#">back to the top</a> |
+
 	<i class="fa-solid fa-rss" style="color: orange;"></i>
 	<a href="/feed.xml">RSS feed</a>
 	<a href="/atom.xml">Atom feed</a>
-	<a href="/feed.json">JSON feed</a>
+	<a href="/feed.json">JSON feed</a> |
+
+	<i class="fa-brands fa-mastodon" style=""></i>
+	<a rel="me" href="https://social.lol/@la">@la@social.lol</a>
 	
 	{% for quote in footer | randomItem %}<blockquote>{{ quote }}</blockquote>{% endfor %}
 </footer>
