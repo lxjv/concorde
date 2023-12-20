@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- webmentions -->
-	<link rel="webmention" href="https://webmention.io/concorde.blog/webmention" />
-	<link rel="pingback" href="https://webmention.io/concorde.blog/xmlrpc" />
+	<link rel="webmention" href="https://webmention.io/laker.tech/webmention" />
+	<link rel="pingback" href="https://webmention.io/laker.tech/xmlrpc" />
 
 	<!-- indielogin -->
 	<link rel="authorization_endpoint" href="https://indieauth.com/auth">
@@ -15,30 +15,44 @@
 	<!-- styling -->
 	<link rel="stylesheet" href="/cdn/style/style.css" />
 	<link rel="icon" href="/cdn/favicon.svg">
-	<script src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
-	
-	<title>{{ title | safe }}</title>
+	<script defer src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
+
+	<!-- opengraph -->
+	<title>{{ title | safe }} | Laker Turner</title>
+	<meta property="description" content="Welcome to Laker Turner's website." />
+	<meta property="og:image" content="/cdn/image/hat.jpg">
 </head>
+
+<body>
 
 <header>
 	<h1>
-		<a style="text-decoration: none;" href="/">Concorde!</a>
+		<a style="text-decoration: none;" href="/">Laker Turner</a>
 		<small style="size: 78%;">
 			<a href="/about">about</a>
 			<a href="/contact">contact</a>
 			<a href="/now">/now</a>
-			<a style="margin-left: 0.3em;" href="/feeds"><i class="fa-solid fa-rss"></i></a>
 		</small>
 	</h1>
 </header>
 
-<body>
+<div id="content" style="border: 2px solid;">
 	{{ content | safe }}
-</body>
+</div>
 
 <footer style="margin-top: 0.5em;">
-	<a rel="me" href="https://social.lol/@la">@la@social.lol on the fediverse</a> - <a rel="me" href="mailto:pigeon@concorde.blog">pigeon@concorde.blog</a>
-	{% for quote in footer | randomItem %}<p>{{ quote }}</p>{% endfor %}
+	<a href="#">back to the top</a> |
+
+	<i class="fa-solid fa-rss" style="color: orange;"></i>
+	<a href="/feed.xml">RSS feed</a>
+	<a href="/atom.xml">Atom feed</a>
+	<a href="/feed.json">JSON feed</a> |
+
+	<i class="fa-brands fa-mastodon" style=""></i>
+	<a rel="me" href="https://social.lol/@la">@la@social.lol</a>
+	
+	{% for quote in footer | randomItem %}<blockquote>{{ quote }}</blockquote>{% endfor %}
 </footer>
 
+</body>
 </html>

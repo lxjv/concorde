@@ -1,11 +1,12 @@
 {
   "name": "concorde",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "restart": "rm -rf public && npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "Laker Turner",
@@ -16,6 +17,7 @@
     "luxon": "^3.4.4"
   },
   "devDependencies": {
+    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0"
   }
 }

@@ -1,5 +1,5 @@
 node_modules/
 public/
 save.txt
-src/posts/.obsidian
+src/blog/posts/.obsidian
 .DS_Store
