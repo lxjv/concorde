@@ -1,9 +1,16 @@
 ---
 title: App Defaults!
+subtitle: Mostly a list of what apps I use.
 date: 2023-11-28
+tags: tech, lists
 ---
 
 I first put this up on [txt.laker.tech](https://txt.laker.tech/defaults) while this site was in the works. So now it's here!
+
+Go check out all the other app defaults posts, over on [Robb Knight's list](https://defaults.rknight.me/)!
+
+> (also just go read [Robb](https://rknight.me)'s stuff, he's cool and the reason i redesigned this site)
+
 ```
 📨 Mail Client: Fastmail Web and iOS app
 📮 Mail Server: Fastmail
@@ -30,7 +37,3 @@ I first put this up on [txt.laker.tech](https://txt.laker.tech/defaults) while t
 🎤 Podcasts: Overcast
 🔐 Password Management: 1Password
 ```
-
-I recommend checking out all the other app defaults posts, over on [Robb Knight's list](https://defaults.rknight.me/)!
-
-(also just go read [Robb](https://rknight.me)'s stuff, he's cool and the reason i redesigned this site)

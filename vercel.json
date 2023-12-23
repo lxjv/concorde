@@ -2,7 +2,8 @@
 	"redirects": [
 		{ "source": "/app-defaults", "destination": "/p/app-defaults"},
 		{ "source": "/out", "destination": "/p/out"},
-		{ "source": "/2023", "destination": "/p/2023"},	
+		{ "source": "/2023", "destination": "/p/2023"},
+		{ "source": "/contact", "destination": "https://li.laker.tech"},		
 		{ "source": "/pronouns", "destination": "https://name.pn/laker-turner"},
 		{ "source": "/@la", "destination": "https://social.lol/@la"},
 		{ "source": "/git/:path", "destination": "https://github.com/lxjv/:path"},
