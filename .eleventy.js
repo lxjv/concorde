@@ -1,12 +1,9 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { DateTime } = require("luxon");
-const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
-
 
 module.exports = function (eleventyConfig) {
 	// plugins
 	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(inclusiveLangPlugin);
 
 	// styling
 	eleventyConfig.addPassthroughCopy("./src/cdn/style");
