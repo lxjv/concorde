@@ -1,4 +1,5 @@
 {
+  "subtitle": "`Laker forgot to write a subtitle. LMAO.`",
   "layout": "page",
   "permalink": "/{{ page.fileSlug }}/"
 }

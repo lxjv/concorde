@@ -2,7 +2,7 @@
 title: Encryption Keys
 ---
 
-### la@laker.gay ([download and copy here](/cdn/keys/la.asc))
+### la@laker.gay ([download and copy here](/.well-known/pgp))
 - Fingerprint: `47C753CC927AFDD50300D8ABDB1FD88767ABB9CD`
 
 ### SSH

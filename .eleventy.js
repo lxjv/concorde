@@ -5,12 +5,11 @@ module.exports = function (eleventyConfig) {
 	// plugins
 	eleventyConfig.addPlugin(pluginRss);
 
-	// styling
+	// passthrough
 	eleventyConfig.addPassthroughCopy("./src/cdn/style");
 	eleventyConfig.addWatchTarget("./src/cdn/style");
-
 	eleventyConfig.addPassthroughCopy("./src/cdn/image");
-	eleventyConfig.addPassthroughCopy("./src/meta/.well-known/");
+	eleventyConfig.addPassthroughCopy({"./src/meta/.well-known/": "/.well-known"});
 	
 	// random filter
 	eleventyConfig.addFilter("randomItem", (arr) => {
