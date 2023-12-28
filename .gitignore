@@ -3,3 +3,4 @@ public/
 save.txt
 src/blog/posts/.obsidian
 .DS_Store
+src/cdn/post_template.md

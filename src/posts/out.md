@@ -2,9 +2,7 @@
 title: Coming Out, Again
 subtitle: My coming out letter.
 date: 2022-01-28
-tags:
-	- transgender
-	- personal
+tags: ["personal", "transgender"]
 ---
 
 Made in honour of [deadname] Turner. May he rest in peace, 2005 - 2019.
