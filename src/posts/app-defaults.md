@@ -1,6 +1,8 @@
 ---
 title: App Defaults!
+subtitle: The apps I use everyday
 date: 2023-11-28
+tags: tech
 ---
 
 I first put this up on [txt.laker.tech](https://txt.laker.tech/defaults) while this site was in the works. So now it's here!
