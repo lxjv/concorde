@@ -9,8 +9,8 @@ heya! welcome to my playground where i test all of the weird links and features 
 
 - [sitemap](/sitemap)
 
-### wellknown
-
+### wellknown etc
+- [robots.txt](/robots.txt)
 - [security.txt](/.well-known/security.txt)
 - [pgp](/.well-known/pgp)
 - [webfinger](/.well-known/webfinger)
