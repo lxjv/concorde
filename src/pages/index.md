@@ -10,5 +10,4 @@ Hi! I'm <a style="text-decoration: none;" href="https://laker.tech" class="h-car
 
 <img class="u-photo" style="vertical-align:middle" src="/cdn/image/hat.jpg" height=80 width=80> <- me! I'm not a fan of showing my face, sorry :D
 
-Here's a list of posts from my blog :)
-{% include "postlist.njk" %}
+Feel free to walk around and see what's going on, maybe [check out my blog](/blog)?

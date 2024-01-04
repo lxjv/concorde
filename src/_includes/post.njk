@@ -2,12 +2,13 @@
 layout: base
 ---
 
-<h2>{{title | safe}}</h2>
-{% include "date.njk" %} | Written by <a style="text-decoration: none;" href="https://laker.tech" class="p-author">Laker Turner</a>
+<article class="h-entry">
+	<h2 class="p-name">{{title | safe}}</h2>
+	<p>Written by <a style="text-decoration: none;" href="https://laker.tech" class="p-author">Laker Turner</a> on {{page.date | postDate}}
 
 {% for tag in page.tags %}<p>{{tag}}</p>{% endfor %}
 
-<article>{{content | safe}}</article>
+{{content | safe}}
 
 <hr style="margin-right: 1em;">
 

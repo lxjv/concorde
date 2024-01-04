@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/cdn/image");
 	eleventyConfig.addPassthroughCopy({"./src/meta/.well-known/": "/.well-known"});
 	eleventyConfig.addPassthroughCopy({ "./src/meta/robots.txt": "/robots.txt" });	
+	
 	// random filter
 	eleventyConfig.addFilter("randomItem", (arr) => {
 		arr.sort(() => {
@@ -30,8 +31,4 @@ module.exports = function (eleventyConfig) {
 			output: "public",
 		},
 	};
-
-	eleventyConfig.setServerOptions({
-		port: 3000
-	});
 };
