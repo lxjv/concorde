@@ -12,25 +12,31 @@
 
 	"headers": [
 		{
-			"source": "feed.xml",
-			"headers": {
-				"key": "Content-Type",
-				"value": "application/rss+xml"
-			}
+			"source": "atom.xml",
+			"headers": [
+				{
+					"key": "Content-Type",
+					"value": "application/atom+xml"
+				}
+			]
 		},
 		{
-			"source": "atom.xml",
-			"headers": {
-				"key": "Content-Type",
-				"value": "application/atom+xml"
-			}
+			"source": "feed.xml",
+			"headers": [
+				{
+					"key": "Content-Type",
+					"value": "application/rss+xml"
+				}
+			]
 		},
 		{
 			"source": "feed.json",
-			"headers": {
-				"key": "Content-Type",
-				"value": "application/json"
-			}
+			"headers": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			]
 		}
 	]
 }
