@@ -13,3 +13,6 @@ test:
   npx @11ty/eleventy --dryrun
   sleep 3
   shellcheck concorde.sh
+  echo "works lol"
+install-cli:
+  cp ./concorde.sh ~/.local/bin/concorde
