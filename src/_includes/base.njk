@@ -38,9 +38,17 @@
 			<a href="/about">about</a>
 			<a href="/contact">contact</a>
 			<a href="/me">/me</a>
+			<a href="/subscribe"><i class="fa-solid fa-rss" style="color: orange;"></i></a>
 		</small>
 	</h1>
 </header>
+
+<div class="h-card" style="display: none;">
+	<img class="u-photo" style="vertical-align:middle; margin-right: 0.3em;" height=80 width=80 src="https://laker.tech/cdn/image/hat.jpg">
+	<a style="text-decoration: none;" href="https://laker.tech">Laker Turner</a>
+	<a href="https://laker.tech/pronouns" class="u-pronouns">she/her</a>
+	<p class="p-note">I'm an 18 year old student from the UK, writer, amateur programmer and leather jacket enthusiast.</p>
+</div>
 
 <div id="content" style="border: 2px solid;">
 	{{ content | safe }}
@@ -56,6 +64,12 @@
 	<a rel="me" href="https://social.lol/@la">@la@social.lol</a>
 	{% for quote in footer | randomItem %}<blockquote>{{ quote }}</blockquote>{% endfor %}
 	<!--<script src="https://tinylytics.app/embed/xrwtvGaPyRKh1zjzZ9Be.js" defer></script>-->
+
+	<div id="buttons">
+		<a href="/"><img src="/cdn/image/buttons/laker.png" alt="laker.tech button"></a>
+		<a href="https://byemc.xyz"><img src="https://byemc.xyz/assets/buttons/byebutton.gif" alt="Bye's Button"></a>
+		<a href="https://rknight.me"><img src="/cdn/image/buttons/robbknight.gif" alt="Robb Knight"></a>
+	</div>
 </footer>
 </body>
 </html>
