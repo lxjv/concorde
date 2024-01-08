@@ -1,5 +1,5 @@
 {
-	"trailingSlash": "false",
+	"trailingSlash": false,
 	"redirects": [
 		{ "source": "/app-defaults", "destination": "/p/app-defaults"},
 		{ "source": "/out", "destination": "/p/out"},
