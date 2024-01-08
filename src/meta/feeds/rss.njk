@@ -1,20 +1,9 @@
----json
-{
-  "permalink": "feed.xml",
-  "eleventyExcludeFromCollections": true,
-  "metadata": {
-    "title": "Laker Turner",
-    "subtitle": "A blog about things",
-    "language": "en",
-    "url": "https://laker.tech/",
-    "author": {
-      "name": "Laker Turner",
-      "email": "la@laker.gay"
-    }
-  }
-}
+---
+# RSS FEED - RSS 1.1
+permalink: feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/cdn/style/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.url }}" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ metadata.title }}</title>

@@ -1,17 +1,25 @@
 @import url(https://fonts.bunny.net/css?family=albert-sans:400,500i|ibm-plex-mono:400,700i);
 
+:root {
+	--lm-bg-color: #fff8e7;
+	--lm-text-color: #0D0C0B;
+	--dm-bg-color: #100536;
+	--dm-text-color: #fff8e7;
+	--acc-violet: #6867aa;
+	--acc-orange: #dc774f;
+	--acc-blue: #8797e0;
+}
+
+
 html {
-	background-color: #fff8e7;
-	color: #0D0C0B;
+	background-color: var(--lm-bg-color);
+	color: var(--lm-text-color);
 }
 
 body {
-	background-color: #fff8e7;
-
 	padding: 1em;
 	border-radius: 1em;
 	margin: 2em auto;
-
 	max-width: 90%;
 
 	font-family: Albert Sans, sans-serif;
@@ -28,7 +36,7 @@ body {
 blockquote {
 	margin-left: 13px;
 	padding-left: 8px;
-	border-left: 4px solid #6867aa;
+	border-left: 4px solid var(--acc-violet);
 	border-spacing: 5px;
 }
 
@@ -51,6 +59,34 @@ footer {
 
 h1 {
 	margin: 0 0 0 0;
+}
+
+hr {
+	margin-right: 1em;
+}
+
+.ntd {
+	text-decoration: none !important;
+}
+
+.post-tag {
+	color: var(--dm-text-color);
+	background-color: var(--acc-violet);
+	padding: 5px 7px;
+	border-radius: 100px;
+}
+
+.post-tag a[href] {
+	color: #fff8e7;
+	text-decoration: none;
+}
+
+.break hr {
+  border: none;
+  border-top: 6px;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
 }
 
 .webring>a {

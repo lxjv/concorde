@@ -1,14 +1,15 @@
 build:
-  echo "Now building concorde!
+  echo "Now building Concorde"
   npx @11ty/eleventy
-
 start:
-  echo "Now starting concorde"
+  echo "Starting Concorde now!"
   npx @11ty/eleventy --serve
-
 purge:
-  echo "Purging concorde's public folder and starting server"
+  echo "Purging build folder and starting server!"
   rm -rf ./public
   npx @11ty/eleventy --serve
-
-# add ci step soon
+test:
+  echo "Now testing Concorde"
+  npx @11ty/eleventy --dryrun
+  sleep 3
+  shellcheck concorde.sh

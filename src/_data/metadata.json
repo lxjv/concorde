@@ -1,6 +1,6 @@
 {
   "title": "Laker Turner",
-  "subtitle": "Laker Turner's website",
+  "subtitle": "Laker Turner's website and blog.",
   "language": "en",
 
   "domain": "laker.tech",
@@ -8,7 +8,7 @@
 
   "author": {
 		"name": "Laker Turner",
-		"url": "https://laker.tech",
+		"url": "https://laker.tech/about",
 		"email": "la@laker.gay"
 	}
 }

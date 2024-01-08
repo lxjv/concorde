@@ -8,7 +8,7 @@ date: 2024-01-06
 > I had *planned* to get this finished before the new year began. Then I broke my laptop. Whoops. Happy 2024 everyone.
 
 Hey everyone. Long time no see, blog!
-I've been meaning to write some more blog posts... well all year. That worked out well. /s [1]
+I've been meaning to write some more blog posts... well all year. That worked out well. /s
 
 So I wanted to recap everything I've done. Mostly to get my blog-post-writing juices flowing.
 
@@ -19,7 +19,8 @@ So I wanted to recap everything I've done. Mostly to get my blog-post-writing ju
 
 For a long while, my website and Concorde, my blog were completely different but I decided to merge them to make updating them easier. 
 
-This also gives me the chance to consolidate my digital presence into one domain so now everything is on laker.tech. [2]
+This also gives me the chance to consolidate my digital presence into one domain so now everything is on laker.tech. 
+{% footnoteref "domain", "Everything apart from email... cause [ain't nobody got time for that](https://www.youtube.com/watch?v=6gLMSf4afzo)." %}^domain{% endfootnoteref %}
 
 concorde.blog now redirects to laker.tech, and I've made sure no links are broken, cause [Cool URI's don't change](https://www.w3.org/Provider/Style/URI).
 
@@ -52,10 +53,3 @@ So, that was 2023. It was pretty good.
 This is a bit shorter than I was hoping for, but I just want to get it out so I can start working on other things again XD
 
 See you all soon. -- LA
-
----
-
-### Footnotes
-
-- [1] Well if you don't count the few update posts, that I've taken down for being inaccurate.
-- [2] Everything apart from email... cause [ain't nobody got time for that](https://www.youtube.com/watch?v=6gLMSf4afzo).

@@ -1,9 +1,23 @@
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginRSS = require("@11ty/eleventy-plugin-rss");
 const { DateTime } = require("luxon");
+const addRemoteData = require("@aaashur/eleventy-plugin-add-remote-data");
+const footnotes = require('eleventy-plugin-footnotes')
 
 module.exports = function (eleventyConfig) {
+
 	// plugins
-	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(pluginRSS);
+	eleventyConfig.addPlugin(footnotes, { /* … */ })
+	eleventyConfig.addPlugin(addRemoteData, {
+		data: {
+			status: "https://api.omg.lol/address/laker/statuses/latest"
+		},
+		options: {
+			directory: "/tmp/11tycache",
+			duration: "1h",
+		},
+	});
+
 
 	// passthrough
 	eleventyConfig.addPassthroughCopy("./src/cdn/style");
