@@ -15,7 +15,7 @@ OPTION=$(gum choose "new" "edit" "stats" "quit")
 if [[ $OPTION == "new" ]]; then
     echo "Creating a new post"
     POST_SLUG=$(gum input --placeholder "post slug") || echo "gum broke"
-    cp ./src/cdn/post_template.md $POST_DIR/"$POST_SLUG".md 
+    cp ./src/cdn/post_template.md $POST_DIR/$POST_SLUG.md 
 	$EDITOR $POST_DIR/"$POST_SLUG".md
 
 elif [[ $OPTION == "edit" ]]; then

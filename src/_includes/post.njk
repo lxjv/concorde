@@ -18,7 +18,7 @@ layout: base
 
 	<p>
 		Written by <a href="https://laker.tech" class="p-author ntd">Laker Turner</a>
-		on <time class="dt-published" datetime="{{page.date}}T00:00:00+0000">{{date | postDate}}</time> 
+		on <time class="dt-published" datetime="{{date}}">{{date | postDate}}</time> 
 		with the tags {% for tag in tags %}<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>{% endfor %}
 	</p>
 
