@@ -2,16 +2,27 @@
 layout: base
 ---
 
+<style>
+	img {
+		max-width: 39%;
+		height: auto;
+		margin-left: 3em;
+		border: 2px #fff8e7 solid;
+	}
+</style>
+
 <article class="h-entry">
 	<div class="post-meta">
 	<h2 class="p-name">{{title | safe}}</h2>
-	<blockquote class="p-summary">{{subtitle}}</blockquote>
+	<blockquote class="p-summary">{{subtitle | safe}}</blockquote>
 
-	<p>Written by <a href="https://laker.tech" class="p-author ntd">Laker Turner</a> 
-	on <time class="dt-published" datetime="{{page.date}}">{{page.date | postDate}}</time></p>
+	<p>
+		Written by <a href="https://laker.tech" class="p-author ntd">Laker Turner</a>
+		on <time class="dt-published" datetime="{{page.date}}T00:00:00+0000">{{date | postDate}}</time> 
+		with the tags {% for tag in tags %}<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>{% endfor %}
+	</p>
 
-	{% for tag in tags %}<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span> {% endfor %}
-	<hr class="break" style="margin-top: 1em:">
+	<hr class="break" style="margin: 1.5em 0;">
 	</div>
 
 	<div class="e-content">{{content | safe}}</div>
