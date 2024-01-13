@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
 
 	// plugins
 	eleventyConfig.addPlugin(pluginRSS);
-	eleventyConfig.addPlugin(footnotes, { /* … */ })
+	eleventyConfig.addPlugin(footnotes, {})
 	eleventyConfig.addPlugin(addRemoteData, {
 		data: {
 			status: "https://api.omg.lol/address/laker/statuses/latest"
@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
 
 	// passthrough
 	eleventyConfig.addPassthroughCopy("./src/cdn/style");
-	eleventyConfig.addWatchTarget("./src/cdn/style");
+	eleventyConfig.addWatchTarget("./src/cdn/**");
 	eleventyConfig.addPassthroughCopy("./src/cdn/image");
 	eleventyConfig.addPassthroughCopy({ "./src/cdn/icons": "/" });
 	eleventyConfig.addPassthroughCopy({"./src/meta/.well-known/": "/.well-known"});
@@ -36,12 +36,12 @@ module.exports = function (eleventyConfig) {
 	});
 
 	// pretty dates!
-	eleventyConfig.addFilter("postDate", (dateObj) => {
+	eleventyConfig.addFilter("datePretty", (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 	});
 
 	// ISO dates!
-	eleventyConfig.addFilter("toISO", (dateObj) => {
+	eleventyConfig.addFilter("dateISO", (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.toISO);
 	});
 

@@ -6,29 +6,29 @@ date: 2023-12-11
 
 > This is a [/now page](https://sive.rs/nowff), and [you should make one](https://nownownow.com/about), too.
 
-{% include "date.njk" %}
+Last updated: {{page.date | datePretty}}
 
-<script defer src="https://status.lol/[your-address].js?time&link&fluent&pretty"></script>
+<script defer src="https://status.lol/laker.js?time&link&fluent&pretty"></script>
 
-## 💜 Overview
+### 💜 Overview
 Spending less time on the internet, or at least trying to.
 
 Fed up with school. Luckily college visits start soon!
 
 Outside of school, I'm doing better!
 
-## 🎧 Music
-[see my last.fm profile](https://last.fm/user/lxjv)
+- Current hyperfixations: Stationary (esp. Field Notes), Stenography, this site.
+
+### 🎧 Music
+[last.fm profile](https://last.fm/user/lxjv) <script src="https://recentfm.rknight.me/now.js?u=lxjv"></script>
 
 I can't really describe my music taste right now.
 
-## 📚 Books
+### 📚 Books
 According to [literal.club/@laker](https://literal.club/laker), I've been reading:
 
 <div id="literal-widget" handle="laker" status="IS_READING" layout="list"></div>
 <script defer src="https://literal.club/js/widget.js"></script>
 
-## 🎮 📺 🎥 Other media
-Favourite movie is still *Everything Everywhere All At Once*. No surprises there.
-
-I recently got a Steam Deck for christmas, and I've been obsessed with *House Flipper* and *Stray*.
+### 🎮 📺 🎥 Other media
+Playing a lot of *Peggle* right now.

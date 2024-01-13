@@ -65,8 +65,30 @@ hr {
 	margin-right: 1em;
 }
 
+.post-img {
+	max-width: 39%;
+	height: auto;
+	margin-left: 3em;
+}
+
+img {
+	border: 2px #fff8e7 solid;
+}
+
 .ntd {
 	text-decoration: none !important;
+}
+
+.nd {
+	display: none;
+}
+
+.nb {
+	border: none !important;
+}
+
+.statuslol_container {
+	max-width: 43%;
 }
 
 .post-tag {

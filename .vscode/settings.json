@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"**/node_modules/": true,
+		"**/public/": true,
+		"src/blog/posts/.obsidian": true,
+		"**/.DS_Store": true,
+		"**/.cache/": true,
+		"**/.vercel": true
+	}
+}

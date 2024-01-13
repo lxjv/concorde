@@ -1,13 +1,15 @@
 {
-  "title": "Laker Turner",
-  "subtitle": "Laker Turner's website and blog.",
-  "language": "en",
+	"title": "Laker Turner",
+	"subtitle": "Laker Turner's website and blog.",
+	"language": "en",
 
-  "domain": "laker.tech",
-  "url": "https://laker.tech/",
+	"domain": "laker.tech",
+	"url": "https://laker.tech/",
+	"cURL": "https://laker.tech",
 
-  "author": {
+	"author": {
 		"name": "Laker Turner",
+		"photo": "https://laker.tech/cdn/image/hat.jpg",
 		"url": "https://laker.tech/about",
 		"email": "la@laker.gay"
 	}

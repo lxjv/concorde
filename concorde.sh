@@ -7,8 +7,8 @@
 EDITOR="code"
 POST_DIR="~/dev/web/concorde/src/posts" # use a static path if you install the cli
 
-echo "Concorde CLI"
-echo "version 1.2.0 - stats update"
+echo "zep - the Concorde CLI"
+echo "version 1.3.0 - naming update"
 
 OPTION=$(gum choose "new" "edit" "stats" "quit")
 

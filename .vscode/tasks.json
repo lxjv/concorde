@@ -3,7 +3,7 @@
   "tasks": [
     {
       "type": "shell",
-      "command": "just start",
+      "command": "just purge",
       "label": "Launch Site",
       "group": "none",
       "presentation": {

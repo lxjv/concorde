@@ -2,6 +2,7 @@
 	"trailingSlash": false,
 	"redirects": [
 		{ "source": "/app-defaults", "destination": "/p/app-defaults"},
+		{ "source": "/archive", "destination": "/blog/t/post"},
 		{ "source": "/out", "destination": "/p/out"},
 		{ "source": "/2023", "destination": "/p/2023"},	
 		{ "source": "/pronouns", "destination": "https://name.pn/laker-turner"},

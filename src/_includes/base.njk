@@ -25,7 +25,8 @@
 	<!-- opengraph -->
 	<title>{{ title | safe }} | Laker Turner</title>
 	<meta property="description" content={{ subtitle }} />
-		<meta property="og:image" content="/cdn/image/hat.jpg" />
+	{% include "og.njk" %}
+
 </head>
 
 <body>
@@ -43,11 +44,8 @@
 	</h1>
 </header>
 
-<div class="h-card" style="display: none;">
-	<img class="u-photo" style="vertical-align:middle; margin-right: 0.3em;" height=80 width=80 src="https://laker.tech/cdn/image/hat.jpg">
-	<a style="text-decoration: none;" class="u-url" rel="me" href="https://laker.tech">Laker Turner</a>
-	<a href="https://laker.tech/pronouns" class="u-pronouns">she/her</a>
-	<p class="p-note">I'm an 18 year old student from the UK, writer, amateur programmer and leather jacket enthusiast.</p>
+<div id="hcard-contain" class="nd">
+  {% include "hcard.njk" %}
 </div>
 
 <div id="content" style="border: 2px solid;">
@@ -66,9 +64,9 @@
 	<!--<script src="https://tinylytics.app/embed/xrwtvGaPyRKh1zjzZ9Be.js" defer></script>-->
 
 	<div id="buttons">
-		<a href="/"><img src="/cdn/image/buttons/laker.png" alt="laker.tech button"></a>
-		<a href="https://byemc.xyz"><img src="https://byemc.xyz/assets/buttons/byebutton.gif" alt="Bye's Button"></a>
-		<a href="https://rknight.me"><img src="/cdn/image/buttons/robbknight.gif" alt="Robb Knight"></a>
+		<a href="/"><img src="/cdn/image/buttons/laker.png" alt="laker.tech button" class="nb"></a>
+		<a href="https://byemc.xyz"><img src="https://byemc.xyz/assets/buttons/byebutton.gif" alt="Bye's Button" class="nb"></a>
+		<a href="https://rknight.me"><img class="nb" src="/cdn/image/buttons/robbknight.gif" alt="Robb Knight" class="nb"></a>
 	</div>
 </footer>
 </body>
