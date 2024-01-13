@@ -16,6 +16,10 @@
 	<!-- indielogin -->
 	<link rel="authorization_endpoint" href="https://indieauth.com/auth">
 	<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+	<link rel="me" href="mailto:la@laker.gay">
+	<link href="https://github.com/lxjv" rel="me">
+	<link rel="pgpkey" href="/.wellknown/pgp">
+
 
 	<!-- styling -->
 	<link rel="stylesheet" href="/cdn/style/style.css" />
@@ -24,7 +28,7 @@
 
 	<!-- opengraph -->
 	<title>{{ title | safe }} | Laker Turner</title>
-	<meta property="description" content={{ subtitle }} />
+	<meta property="description" content="{{ subtitle }}" />
 	{% include "og.njk" %}
 
 </head>

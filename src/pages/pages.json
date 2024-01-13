@@ -1,5 +1,6 @@
 {
-  "subtitle": "`Laker forgot to write a subtitle. LMAO.`",
+  "subtitle": "Default subtitle, cause Laker forgot to write one. Shame.",
   "layout": "page",
-  "permalink": "/{{ page.fileSlug }}/"
+  "permalink": "/{{ page.fileSlug }}/",
+  "ogtype": "profile"
 }
