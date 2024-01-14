@@ -11,9 +11,9 @@ layout: base
 		Written by 
 		<span class="h-card">
 			<img src="/cdn/image/hat-icon.jpg" class="nb nem u-photo" height=16 width=16 alt="My Keith Haring hat." style="vertical-align: middle;">
-			<a href="https://laker.tech" class="p-author ntd">Laker Turner</a>
+			<a href="https://laker.tech" rel="author" class="p-author ntd">Laker Turner</a>
 		</span>
-		on <time class="dt-published u-url" datetime="{{page.date | dateISO}}" href="{{metadata.cURL}}{{page.url}}">{{page.date | datePretty}}</time> 
+		on <time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
 
 		with the tags
 		{% for tag in tags %}
@@ -28,5 +28,6 @@ layout: base
 	
 	<hr class="break">
 	{% footnotes %}	
-	<p>Any comments? Feel free to <a href="mailto:la@laker.gay?subject={{title | safe}}">email me</a>!</p>
+	<p>Any comments? Feel free to <a href="mailto:la@laker.gay?subject={{title | safe}}">email me</a>! | 
+	Link to this post: <a href="{{metadata.cURL}}{{page.url}}" class="u-url">{{metadata.cURL}}{{page.url}}</a></p>
 </article>
