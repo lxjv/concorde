@@ -11,13 +11,13 @@ layout: base
 		Written by 
 		<span class="h-card">
 			<img src="/cdn/image/hat-icon.jpg" class="nb nem u-photo" height=16 width=16 alt="My Keith Haring hat." style="vertical-align: middle;">
-			<a href="https://laker.tech" rel="author" class="ntd">Laker Turner</a>
+			<a rel="author" class="p-author h-card" href="https://laker.tech">Laker Turner</a>
 		</span>
 		on <time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
 
 		with the tags
 		{% for tag in tags %}
-		<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>
+		<span class="post-tag p-category"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>
 		{% endfor %}
 	</p>
 
