@@ -73,10 +73,16 @@ hr {
 
 img {
 	border: 2px #fff8e7 solid;
+	max-width: 39%;
+	margin-left: 1.4em;
 }
 
 .ntd {
 	text-decoration: none !important;
+}
+
+.nem {
+	margin: 0 !important;
 }
 
 .nd {

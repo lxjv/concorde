@@ -42,4 +42,4 @@ Am I switching to Pika for Concorde? Obviously not. I just spent 2 months creati
 
 For other projects though, that don't need formatting though? Yeah, it's a good service, that can only get better with time. After all, they are still in Alpha.
 
-So I'm going to keep my account around, for 2 reasons. One, I genuinely think that this is a good service, yes even if it needs a few tweaks. Two, I need a place to put poetry. I've working on a poetry collection for a few years and have been looking for a place to post excerpts from it. I'll talk about it later though. You can look at it though, it's called [Neverending](https://la.pika.page)
+So I'm going to keep my account around, for 2 reasons. One, I genuinely think that this is a good service, yes even if it needs a few tweaks. Two, I need a place to put poetry. I've working on a poetry collection for a few years and have been looking for a place to post excerpts from it. I'll talk about it later though. You can look at it though, it's called [Neverending](https://la.pika.page).

@@ -8,9 +8,17 @@ layout: base
 	<blockquote class="p-summary">{{subtitle | safe}}</blockquote>
 
 	<p>
-		Written by <a href="https://laker.tech" class="p-author h-card ntd">Laker Turner</a>
-		on <time class="dt-published" datetime="{{page.date | dateISO}}" href="{{metadata.url}}p/{{slug}}">{{page.date | datePretty}}</time> 
-		with the tags {% for tag in tags %}<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>{% endfor %}
+		Written by 
+		<span class="h-card">
+			<img src="/cdn/image/hat-icon.jpg" class="nb nem u-photo" height=16 width=16 alt="My Keith Haring hat." style="vertical-align: middle;">
+			<a href="https://laker.tech" class="p-author ntd">Laker Turner</a>
+		</span>
+		on <time class="dt-published u-url" datetime="{{page.date | dateISO}}" href="{{metadata.cURL}}{{page.url}}">{{page.date | datePretty}}</time> 
+
+		with the tags
+		{% for tag in tags %}
+		<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>
+		{% endfor %}
 	</p>
 
 	<hr class="break" style="margin: 1.5em 0;">
