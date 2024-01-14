@@ -1,10 +1,11 @@
 ---
 title: About
+subtitle: Things about Laker and this site
 ---
 
 Hi! I'm Laker. I don't like talking about myself. This is going to be fun.
 
-I'm a student living in England, planning to go into music after 6th form.
+I'm a student living in England.
 I've been creative my entire life, but started writing about 3 years ago.
 
 I'm also learning how to program, and if any of it actually works I'll put it up on [GitHub](/git).
@@ -17,7 +18,7 @@ laker.tech is made with [Eleventy](https://11ty.dev), and deployed using [Vercel
 
 > I might start self-hosting it soon? No promises.
 
-Everything was written by hand, using either Visual Studio Code or Neovim on either a Macbook Air, or my desktop.
+Everything was written by hand, using either Visual Studio Code or Neovim on either a MacBook Air, or my desktop.
 
 The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`. 
 

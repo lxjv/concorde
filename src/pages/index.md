@@ -1,5 +1,6 @@
 ---
 title: Home
+subtitle: Welcome to Laker Turner's website.
 permalink: /
 layout: base
 ---

@@ -6,3 +6,4 @@ src/blog/posts/.obsidian
 src/cdn/post_template.md
 .cache/
 .vercel
+.nova/Configuration.json

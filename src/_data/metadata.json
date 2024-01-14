@@ -11,6 +11,8 @@
 		"name": "Laker Turner",
 		"photo": "https://laker.tech/cdn/image/hat.jpg",
 		"url": "https://laker.tech/about",
-		"email": "la@laker.gay"
+		"web": "https://laker.tech",
+		"email": "la@laker.gay",
+		"note": "I'm an 18 year old student from the UK, writer, amateur programmer and leather jacket enthusiast."
 	}
 }
