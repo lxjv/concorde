@@ -13,12 +13,14 @@ layout: base
 		with the tags {% for tag in tags %}<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>{% endfor %}
 	</p>
 
-	<hr class="break" style="margin: 1.5em 0;">
+	<hr class="break">
 	</div>
 
-	<div class="e-content">{{content | safe}}</div>
+	<div class="e-content">
+		{{content | safe}}
+	</div>
 	
 	<hr class="break">
-	{% footnotes %}	
+	{% footnotes %}
 	<p>Any comments? Feel free to <a href="mailto:la@laker.gay?subject={{title | safe}}">email me</a>!</p>
 </article>

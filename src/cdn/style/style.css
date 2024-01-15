@@ -33,15 +33,15 @@ body {
 	border-radius: 1em;
 }
 
+.e-content {
+	margin-right: 1em;
+}
+
 blockquote {
 	margin-left: 13px;
 	padding-left: 8px;
 	border-left: 4px solid var(--acc-violet);
 	border-spacing: 5px;
-}
-
-blockquote::hover {
-	border-style: dotted;
 }
 
 small {
@@ -91,11 +91,21 @@ img {
 	max-width: 43%;
 }
 
+.statuslol_emoji_container {
+	display: inline-block;
+	max-width: 101%;
+}
+
+.statuslol_emoji_container img {
+	border: none;
+}
+
 .post-tag {
 	color: var(--dm-text-color);
 	background-color: var(--acc-violet);
 	padding: 5px 7px;
 	border-radius: 100px;
+	margin-right: 5px;
 }
 
 .post-tag a[href] {
