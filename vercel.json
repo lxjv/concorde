@@ -10,7 +10,6 @@
 		{ "source": "/git/:path", "destination": "https://github.com/lxjv/:path"},
 		{ "source": "/discord", "destination": "https://discord.gg/mcpsEvwsd4"}
 	],
-
 	"headers": [
 		{
 			"source": "atom.xml",
