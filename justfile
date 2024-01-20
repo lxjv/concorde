@@ -28,4 +28,4 @@ install-cli:
   echo "concorde installed!"
 
 ci:
-# do this lol 
+#todo do this lol 
