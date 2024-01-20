@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
 
 	// ISO dates!
 	eleventyConfig.addFilter("dateISO", (dateObj) => {
-		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.toISO);
+		return DateTime.fromJSDate(dateObj).toISO(dateObj);
 	});
 
 	return {

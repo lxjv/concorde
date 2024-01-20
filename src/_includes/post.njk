@@ -7,8 +7,12 @@ layout: base
 	<h2 class="p-name">{{title | safe}}</h2>
 	<blockquote class="p-summary">{{subtitle | safe}}</blockquote>
 
-	<p>
-		Written by <a href="https://laker.tech" class="p-author h-card ntd">Laker Turner</a>
+	<p> 
+		<span class="h-card">
+			Written by
+			<img src="{{metadata.author.photo}}" class="nb nm" style="" alt="Laker's hat." height="16" width="16">
+			<a href="https://laker.tech" class="p-author ntd">Laker Turner</a>
+		</span>
 		on <time class="dt-published" datetime="{{page.date | dateISO}}" href="{{metadata.url}}p/{{slug}}">{{page.date | datePretty}}</time> 
 		with the tags {% for tag in tags %}<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>{% endfor %}
 	</p>

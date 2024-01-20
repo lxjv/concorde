@@ -23,7 +23,6 @@
 	<h1>
 		<a style="text-decoration: none;" href="/">Laker Turner</a>
 		<small style="size: 78%;">
-			<a href="/blog">blog</a>
 			<a href="/about">about</a>
 			<a href="/contact">contact</a>
 			<a href="/me">/me</a>
@@ -42,20 +41,14 @@
 
 <footer style="margin-top: 0.5em;">
 	<i class="fa-solid fa-rss" style="color: orange;"></i>
-	<a href="/feed.xml">RSS feed</a>
-	<a href="/atom.xml">Atom feed</a>
-	<a href="/feed.json">JSON feed</a> 
+	<a href="/feed.xml">RSS feed</a> <a href="/atom.xml">Atom feed</a> <a href="/feed.json">JSON feed</a> 
 	|
 	<i class="fa-brands fa-mastodon"></i>
 	<a rel="me" href="https://social.lol/@la">@la@social.lol</a>
+	or email me: <a href="mailto:la@laker.gay">la@laker.gay</a>
+
 	{% for quote in footer | randomItem %}<blockquote>{{ quote }}</blockquote>{% endfor %}
 	<!--<script src="https://tinylytics.app/embed/xrwtvGaPyRKh1zjzZ9Be.js" defer></script>-->
-
-	<div id="buttons">
-		<a href="/"><img src="/cdn/image/buttons/laker.png" alt="laker.tech button" class="nb"></a>
-		<a href="https://byemc.xyz"><img src="https://byemc.xyz/assets/buttons/byebutton.gif" alt="Bye's Button" class="nb"></a>
-		<a href="https://rknight.me"><img class="nb" src="/cdn/image/buttons/robbknight.gif" alt="Robb Knight" class="nb"></a>
-	</div>
 </footer>
 </body>
 </html>

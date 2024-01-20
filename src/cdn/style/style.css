@@ -73,6 +73,9 @@ hr {
 
 img {
 	border: 2px #fff8e7 solid;
+	max-width: 45%;
+	height: auto;
+	margin-left: 2em;
 }
 
 .ntd {
@@ -85,6 +88,10 @@ img {
 
 .nb {
 	border: none !important;
+}
+
+.nm {
+	margin: 0 !important;
 }
 
 .statuslol_container {

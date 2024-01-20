@@ -1,6 +1,6 @@
 ---
-title: Concorde
+title: Blog
 ---
-Welcome to my blog, Concorde!
+Welcome to my blog. 
 
 {% include "postlist.njk" %}

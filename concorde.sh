@@ -4,7 +4,7 @@
 # feel free to use this for other projects. -LA
 
 # config
-EDITOR="code"
+EDITOR="code" # dd this line to use $EDITOR in your sys envs
 POST_DIR="~/dev/web/concorde/src/posts" # use a static path if you install the cli
 
 echo "zep - the Concorde CLI"
