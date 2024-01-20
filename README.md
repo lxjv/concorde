@@ -21,5 +21,3 @@ just start
 # clean-slate build and start server
 just purge
 ```
-
-## 
