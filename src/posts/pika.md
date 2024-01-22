@@ -1,6 +1,6 @@
 ---
 title: My opinions on Pika
-subtitle: from a chronic blog-hopper
+subtitle: Opinions on a new blog platform from a chronic blog-hopper
 date: 2024-01-09
 tags: ["tech", "blogs"]
 ---
@@ -30,16 +30,22 @@ tags: ["tech", "blogs"]
 There is currently three ways to customise a Pika blog:
 
 - Blog Title
-- Subdomain on pika.page, no custom domains yet
+- Subdomain on pika.page, no custom domains yet (UPDATE 2024-01-22: Pika now lets you use custom domains when you subscribe.)
 - A description box that shows up on the home of your blog
 
 No theming, nothing. 
 There used to be a theme option where you could choose between 4 preset themes, but that got removed and replaced with a [link to an update post](https://pika.pika.page/posts/we-re-removing-our-theme-option-for-now). 
 As of 2024-01-09 (EN: One day after they removed the option), theming hasn't been added back yet. I'll update this post when they do.
 
+> UPDATE (2024-01-22): Pika has readded theming!
+
 ### Ending notes
 Am I switching to Pika for Concorde? Obviously not. I just spent 2 months creating this from scratch.
 
 For other projects though, that don't need formatting though? Yeah, it's a good service, that can only get better with time. After all, they are still in Alpha.
 
-So I'm going to keep my account around, for 2 reasons. One, I genuinely think that this is a good service, yes even if it needs a few tweaks. Two, I need a place to put poetry. I've working on a poetry collection for a few years and have been looking for a place to post excerpts from it. I'll talk about it later though. You can look at it though, it's called [Neverending](https://la.pika.page)
+So I'm going to keep my account around, for 2 reasons.
+One, I genuinely think that this is a good service, yes even if it needs a few tweaks. 
+Two, I need a place to put poetry. 
+I've working on a poetry collection for a few years and have been looking for a place to post excerpts from it. 
+I'll talk about it later though. You can look at it now though, it's called [Neverending](https://la.pika.page).

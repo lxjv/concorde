@@ -6,23 +6,18 @@ layout: base
 	<div class="post-meta">
 		
 	<h2 class="p-name">{{title | safe}}</h2>
+	<time class="dt-published" datetime="{{page.date | dateISO}}">
+		{{page.date | datePretty}},
+	</time>
+	<span class="h-card">
+		by
+		<img src="{{metadata.author.photo}}" class="nb nm" style="vertical-align: middle;" alt="Laker's hat." height="16" width="16">
+		<a href="https://laker.tech" class="p-author ntd">Laker Turner</a>
+	</span>
+	{% for tag in tags %}
+		<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>
+	{% endfor %}
 	<blockquote class="p-summary">{{subtitle | safe}}</blockquote>
-
-	<p> 
-		<span class="h-card">
-			Written by
-			<img src="{{metadata.author.photo}}" class="nb nm" style="vertical-align: middle;" alt="Laker's hat." height="16" width="16">
-			<a href="https://laker.tech" class="p-author ntd">Laker Turner</a>
-		</span>
-		on 
-		<time class="dt-published u-url" datetime="{{page.date | dateISO}}" href="{{metadata.cURL}}{{page.url}}">
-			{{page.date | datePretty}}
-		</time> 
-		with the tags 
-		{% for tag in tags %}
-			<span class="post-tag"><a href="/blog/t/{{tag}}">#{{tag}}</a></span>
-		{% endfor %}
-	</p>
 
 	<hr class="break">
 	</div>
