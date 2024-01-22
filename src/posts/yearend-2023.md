@@ -19,8 +19,7 @@ So I wanted to recap everything I've done. Mostly to get my blog-post-writing ju
 
 For a long while, my website and Concorde, my blog were completely different but I decided to merge them to make updating them easier. 
 
-This also gives me the chance to consolidate my digital presence into one domain so now everything is on laker.tech. 
-{% footnoteref "domain", "Everything apart from email... cause [ain't nobody got time for that](https://www.youtube.com/watch?v=6gLMSf4afzo)." %}^domain{% endfootnoteref %}
+This also gives me the chance to consolidate my digital presence into one domain so now everything can be on laker.tech. 
 
 concorde.blog now redirects to laker.tech, and I've made sure no links are broken, cause [Cool URI's don't change](https://www.w3.org/Provider/Style/URI).
 
