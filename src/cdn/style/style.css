@@ -1,19 +1,17 @@
-@import url(https://fonts.bunny.net/css?family=albert-sans:400,500i|ibm-plex-mono:400,700i);
+@import url(https://fonts.bunny.net/css?family=albert-sans:400,700|ibm-plex-mono:400,700i);
 
 :root {
-	--lm-bg-color: #fff8e7;
-	--lm-text-color: #0D0C0B;
-	--dm-bg-color: #100536;
-	--dm-text-color: #fff8e7;
+	--latte: #fff8e7;
+	--almost-black: #0D0C0B;
+	--dark-blue: #100536;
 	--acc-violet: #6867aa;
 	--acc-orange: #dc774f;
 	--acc-blue: #8797e0;
 }
 
-
 html {
-	background-color: var(--lm-bg-color);
-	color: var(--lm-text-color);
+	background-color: var(--latte);
+	color: var(--almost-black);
 }
 
 body {
@@ -35,6 +33,10 @@ body {
 
 .e-content {
 	margin-right: 1em;
+}
+
+.flex {
+	display: flex;
 }
 
 blockquote {
@@ -72,7 +74,7 @@ hr {
 }
 
 img {
-	border: 2px #fff8e7 solid;
+	border: 2px var(--latte) solid;
 	max-width: 45%;
 	height: auto;
 	margin-left: 2em;
@@ -103,12 +105,12 @@ img {
 	max-width: 101%;
 }
 
-.statuslol_emoji_container img {
-	border: none;
+.statuslol_emoji img {
+	margin: none !important;
 }
 
 .post-tag {
-	color: var(--dm-text-color);
+	color: var(--latte);
 	background-color: var(--acc-violet);
 	padding: 5px 7px;
 	border-radius: 100px;
@@ -116,7 +118,7 @@ img {
 }
 
 .post-tag a[href] {
-	color: #fff8e7;
+	color: var(--latte);
 	text-decoration: none;
 }
 
@@ -132,10 +134,13 @@ img {
 	padding: 0 6px;
 }
 
-a[href] {
-	color: #0D0C0B;
-	text-decoration: underline dotted #0D0C0B;
+.literal-book-item__image_cover__outer {
+	margin: 0;
+}
 
+a[href] {
+	color: var(--almost-black);
+	text-decoration: underline dotted var(--almost-black);
 }
 
 code {
@@ -144,31 +149,18 @@ code {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		background: #100536;
-		color: #fff8e7;
+		background: var(--dark-blue);
+		color: var(--latte)
 	}
 
 	body {
-		background-color: #100536;
+		background-color: var(--dark-blue);
 	}
 
 	a[href] {
 		color: #fff8e7;
 		text-decoration: underline dotted #fff8e79c;
 
-	}
-
-	.blue {
-		background: #8797e059;
-	}
-
-	.orange {
-		background: #dc774f51;
-		color: #fff8e7;
-	}
-
-	.orange a[href] {
-		color: #fff8e7;
 	}
 
 	.literal-book-item__title {

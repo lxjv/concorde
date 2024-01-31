@@ -11,7 +11,7 @@ start:
   echo "bye!"
 
 purge:
-  echo "Purging build folder and starting server!"
+  echo "Purging build folder and starting Concorde!"
   rm -rf ./public
   npx @11ty/eleventy --serve
   echo "bye!"
@@ -20,12 +20,11 @@ test:
   echo "Now testing Concorde"
   npx @11ty/eleventy --dryrun
   sleep 3
-  shellcheck concorde.sh
+  shellcheck zep.sh
   echo "works lol"
 
 install-cli:
-  cp ./concorde.sh ~/.local/bin/zep
+  cp ./zep.sh ~/.local/bin/zep
   echo "concorde installed!"
 
-ci:
-#todo do this lol 
+#todo ci:

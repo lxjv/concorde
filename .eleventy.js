@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
 
 	// passthrough
 	eleventyConfig.addPassthroughCopy("./src/cdn/style");
-	eleventyConfig.addWatchTarget("./src/cdn/**");
+	eleventyConfig.addWatchTarget("./src/cdn/style");
 	eleventyConfig.addPassthroughCopy("./src/cdn/image");
 	eleventyConfig.addPassthroughCopy({ "./src/cdn/icons": "/" });
 	eleventyConfig.addPassthroughCopy({"./src/meta/.well-known/": "/.well-known"});
@@ -40,6 +40,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("dateISO", (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toISO(dateObj);
 	});
+	
+	eleventyConfig.setServerOptions({
+		port: 3000, // 
+	});	
 
 	return {
 		dir: {
